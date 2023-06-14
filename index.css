@@ -97,6 +97,7 @@ input:focus {
     flex-direction: column;
     justify-content: center;
     height: 285px;
+    margin-bottom: 36px;
 }
 
 
