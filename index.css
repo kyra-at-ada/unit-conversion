@@ -1,3 +1,86 @@
 body {
+    background: #1F2937;
+    color: #FFFFFF;
     margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 5px;
+    padding: 9px 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height, or 150% */
+
+    color: #3D3D3D;
+    margin-bottom: 31px;
+}
+
+h1{
+    margin: 33px 0 0 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+
+    /* or 100% */
+    text-align: center;
+
+    color: #CCC1FF;
+    margin-top: 31px;
+}
+
+input {
+    background: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 117px;
+    height: 83px;
+    margin: 30px 0 25px 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    
+}
+
+input:focus {
+    outline:none;
+}
+
+.conversion-box {
+    width: 500px;
+    height: 109px;
+    background: #273549;
+    border-radius: 4.68077px 0px 0px 0px;
+    margin: 24px 0;
+}
+
+#conversions {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    align-items: center;
+    background: #6943FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 285px;
 }
