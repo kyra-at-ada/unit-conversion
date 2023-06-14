@@ -45,6 +45,7 @@ h2 {
 input {
     background: #6943FF;
     border: 2px solid #B295FF;
+    color: white;
     border-radius: 5px;
     width: 117px;
     height: 83px;
@@ -54,7 +55,6 @@ input {
     font-size: 58px;
     line-height: 24px;
     text-align: center;
-    color: white;
     
 }
 
@@ -68,6 +68,20 @@ input:focus {
     background: #273549;
     border-radius: 4.68077px 0px 0px 0px;
     margin: 24px 0;
+}
+
+.conversion-desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    /* or 143% */
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-top: 9px 0 19px 0;
 }
 
 #conversions {
@@ -84,3 +98,5 @@ input:focus {
     justify-content: center;
     height: 285px;
 }
+
+
